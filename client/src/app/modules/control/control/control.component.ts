@@ -1,0 +1,12 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-control',
+  templateUrl: './control.component.html',
+})
+export class ControlComponent implements OnInit {
+  date = Date.now();
+  constructor() {}
+
+  ngOnInit(): void {}
+}
